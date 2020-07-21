@@ -219,6 +219,7 @@ a.bg-primary:active {
     width: 90px;
     margin-top: 20px;
     font-size: 14px;
+    text-align: center;
     font-weight: 800;
     line-height: 25px;
 }
@@ -226,7 +227,7 @@ a.bg-primary:active {
 .chart canvas {
     position: absolute;
     top: 30%;
-    left: 0;
+    left: -5%;
     transform: translateY(-50%);
     width: 100px !important;
     height: 100px !important;
@@ -260,8 +261,6 @@ a.bg-primary:active {
 .t-card-header {
     position: relative;
     height: 150px;
-    background-image: url(/assets/images/teachable-logo.png);
-    background-size: 50px;
     overflow: hidden;
 }
 
@@ -272,13 +271,26 @@ a.bg-primary:active {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #000000;
+    background-color: #006838;
     opacity: .3;
 }
 
+.t-card-header-inner {
+    position: absolute;
+    top: -30%;
+    left: -14%;
+    height: 443px;
+    width: 481px;
+    background-image: url(/assets/images/teachable-logo.png);
+    background-size: 50px;
+    background-position: center center;
+    overflow: hidden;
+    transform: rotateZ(35deg);
+}
+
 .t-card-img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     overflow: hidden;
     position: absolute;
@@ -288,15 +300,18 @@ a.bg-primary:active {
 }
 
 .t-card-body {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .t-card-body ion-icon {
-    font-size: 25px;
+    font-size: 20px;
+    color: #006838;
 }
 
 .t-card-text {
-    font-size: 12px;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: #908889;
     word-break: keep-all;
 }
 
