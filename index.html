@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEACHABLE</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- custom css -->
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <!-- header section -->
+            <section class="header">
+                <nav class="navbar navbar-expand-lg navbar-light col-lg-12 col-12">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/teachable-logo.png" class="img-fluid" alt="teachable logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ml-lg-4 active">
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item ml-lg-4">
+                                <a class="nav-link" href="#">Get Teachers</a>
+                            </li>
+                            <li class="nav-item ml-lg-4">
+                                <a class="nav-link" href="#">Find Schools</a>
+                            </li>
+                            <li class="nav-item ml-lg-4">
+                                <a class="nav-link" href="#">Video Classes</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav my-2 my-lg-0 ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sign Up</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn bg-primary pl-4 pr-4" href="#">Log In</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="banner-text col-md-10 col-10">
+                    <h1 class="col-lg-6 col-md-8 col-12 mb-md-5 mb-4">
+                        Find verified professional teachers near you.
+                    </h1>
+                    <p class="col-lg-5 col-md-8 col-12 mt-md-5 mt-4">
+                        Teachable helps you connect with professional teachers in your location. These tutors / teachers are
+                        thoroughly vetted and will make sure your learning process as seamless as possible
+                    </p>
+                    <form action="" class="form mt-md-5 mt-4 ml-md-1 ml-3">
+                        <div class="row">
+                            <div class="form-group col-md-4 col-9 mr-sm-5">
+                                <ion-icon name="book-outline"></ion-icon>
+                                <input type="text" class="form-control pb-0" placeholder="Enter a subject">
+                            </div>
+
+                            <div class="form-group col-md-4 col-9 mr-sm-5 mt-md-0 mt-3">
+                                <ion-icon name="location-outline"></ion-icon>
+                                <input type="text" class="form-control pb-0" placeholder="Enter your city / area">
+                            </div>
+
+                            <div class="form-group col-md-1 col-9 mt-md-0 mt-3">
+                                <button type="submit" class="btn bg-primary text-white"><ion-icon name="search-outline" style="position: unset;top: unset;transform: unset;"></ion-icon></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <!-- top teachers in location -->
+            <section class="container-fluid section">
+                <div class="row justify-content-center ml-0 mr-0">
+                    <h4 class="primary-heading col-md-6 col-12">top teachers in your location</h4>
+                    <div class="col-md-6 col-12">
+                        <button class="btn btn-main ml-auto">browse teachers</button>
+                    </div>
+                    <div class="col-12 mt-5">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-3 col-md-4 col-12 mt-4">
+                                <div class="t-card col-12">
+                                    <div class="t-card-header">
+                                    </div>
+                                    <div class="t-card-img">
+                                        <img src="assets/images/t1.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="t-card-body pl-md-2 pr-md-2 pb-2 pl-1 pr-1">
+                                        <div class="row justify-content-center ml-lg-1">
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="person"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Sarah D.
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="ribbon"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Mathematics
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="location"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Odili Road, Rivers State.
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="school"></ion-icon>
+                                                </div>
+                                                <div class="col-12">
+                                                    <span class="cert">BSc</span><span class="cert">MSc</span><span class="cert">PHd</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="shield-checkmark"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    <div class="chart text-center" data-percent="87">87%<br>verified</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="cellular"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    <div class="chart text-center" data-percent="90">90%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="t-card-footer">
+                                        <div class="t-card-footer-text">
+                                            <h6 class="t-card-footer-header">
+                                                Bio
+                                            </h6>
+                                            <p>
+                                                As you can see this background is smaller than that parent’s background, so we have to set its dimensions to match that parent’s dimension.As you can see this background is smaller than that parent’s background, so
+                                        we have to set its dimensions to match that parent’s dimension.As you can see this background is smaller than that parent’s background, so we have to set its dimensions to match that parent’s dimension.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-12 mt-4">
+                                <div class="t-card col-12">
+                                    <div class="t-card-header">
+                                    </div>
+                                    <div class="t-card-img">
+                                        <img src="assets/images/t1.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="t-card-body pl-md-2 pr-md-2 pb-2 pl-1 pr-1">
+                                        <div class="row justify-content-center ml-lg-1">
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="person"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Sarah D.
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="ribbon"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Mathematics
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="location"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Odili Road, Rivers State.
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="school"></ion-icon>
+                                                </div>
+                                                <div class="col-12">
+                                                    <span class="cert">BSc</span><span class="cert">MSc</span><span class="cert">PHd</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="shield-checkmark"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    <div class="chart text-center" data-percent="87">87%<br>verified</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="cellular"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    <div class="chart text-center" data-percent="90">90%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="t-card-footer">
+                                        <div class="t-card-footer-text">
+                                            <h6 class="t-card-footer-header">
+                                                Bio
+                                            </h6>
+                                            <p>
+                                                As you can see this background is smaller than that parent’s background, so we have to set its dimensions to match that parent’s dimension.As you can see this background is smaller than that parent’s background, so
+                                        we have to set its dimensions to match that parent’s dimension.As you can see this background is smaller than that parent’s background, so we have to set its dimensions to match that parent’s dimension.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-12 mt-4">
+                                <div class="t-card col-12">
+                                    <div class="t-card-header">
+                                    </div>
+                                    <div class="t-card-img">
+                                        <img src="assets/images/t1.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="t-card-body pl-md-2 pr-md-2 pb-2 pl-1 pr-1">
+                                        <div class="row justify-content-center ml-lg-1">
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="person"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Sarah D.
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="ribbon"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Mathematics
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="location"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Odili Road, Rivers State.
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="school"></ion-icon>
+                                                </div>
+                                                <div class="col-12">
+                                                    <span class="cert">BSc</span><span class="cert">MSc</span><span class="cert">PHd</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="shield-checkmark"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    <div class="chart text-center" data-percent="87">87%<br>verified</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="cellular"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    <div class="chart text-center" data-percent="90">90%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="t-card-footer">
+                                        <div class="t-card-footer-text">
+                                            <h6 class="t-card-footer-header">
+                                                Bio
+                                            </h6>
+                                            <p>
+                                                As you can see this background is smaller than that parent’s background, so we have to set its dimensions to match that parent’s dimension.As you can see this background is smaller than that parent’s background, so
+                                        we have to set its dimensions to match that parent’s dimension.As you can see this background is smaller than that parent’s background, so we have to set its dimensions to match that parent’s dimension.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-12 mt-4">
+                                <div class="t-card col-12">
+                                    <div class="t-card-header">
+                                    </div>
+                                    <div class="t-card-img">
+                                        <img src="assets/images/t1.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="t-card-body pl-md-2 pr-md-2 pb-2 pl-1 pr-1">
+                                        <div class="row justify-content-center ml-lg-1">
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="person"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Sarah D.
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="ribbon"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Mathematics
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="location"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Odili Road, Rivers State.
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="school"></ion-icon>
+                                                </div>
+                                                <div class="col-12">
+                                                    <span class="cert">BSc</span><span class="cert">MSc</span><span class="cert">PHd</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="shield-checkmark"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    <div class="chart text-center" data-percent="87">87%<br>verified</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="cellular"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    <div class="chart text-center" data-percent="90">90%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="t-card-footer">
+                                        <div class="t-card-footer-text">
+                                            <h6 class="t-card-footer-header">
+                                                Bio
+                                            </h6>
+                                            <p>
+                                                As you can see this background is smaller than that parent’s background, so we have to set its dimensions to match that parent’s dimension.As you can see this background is smaller than that parent’s background, so
+                                        we have to set its dimensions to match that parent’s dimension.As you can see this background is smaller than that parent’s background, so we have to set its dimensions to match that parent’s dimension.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-12 mt-4">
+                                <div class="t-card col-12">
+                                    <div class="t-card-header">
+                                    </div>
+                                    <div class="t-card-img">
+                                        <img src="assets/images/t1.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="t-card-body pl-md-2 pr-md-2 pb-2 pl-1 pr-1">
+                                        <div class="row justify-content-center ml-lg-1">
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="person"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Sarah D.
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="ribbon"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Mathematics
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="location"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Odili Road, Rivers State.
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="school"></ion-icon>
+                                                </div>
+                                                <div class="col-12">
+                                                    <span class="cert">BSc</span><span class="cert">MSc</span><span class="cert">PHd</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="shield-checkmark"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    <div class="chart text-center" data-percent="87">87%<br>verified</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="cellular"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    <div class="chart text-center" data-percent="90">90%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="t-card-footer">
+                                        <div class="t-card-footer-text">
+                                            <h6 class="t-card-footer-header">
+                                                Bio
+                                            </h6>
+                                            <p>
+                                                As you can see this background is smaller than that parent’s background, so we have to set its dimensions to match that parent’s dimension.As you can see this background is smaller than that parent’s background, so
+                                        we have to set its dimensions to match that parent’s dimension.As you can see this background is smaller than that parent’s background, so we have to set its dimensions to match that parent’s dimension.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-12 mt-4">
+                                <div class="t-card col-12">
+                                    <div class="t-card-header">
+                                    </div>
+                                    <div class="t-card-img">
+                                        <img src="assets/images/t1.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="t-card-body pl-md-2 pr-md-2 pb-2 pl-1 pr-1">
+                                        <div class="row justify-content-center ml-lg-1">
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="person"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Sarah D.
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="ribbon"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Mathematics
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="location"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Odili Road, Rivers State.
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="school"></ion-icon>
+                                                </div>
+                                                <div class="col-12">
+                                                    <span class="cert">BSc</span><span class="cert">MSc</span><span class="cert">PHd</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="shield-checkmark"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    <div class="chart text-center" data-percent="87">87%<br>verified</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="cellular"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    <div class="chart text-center" data-percent="90">90%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="t-card-footer">
+                                        <div class="t-card-footer-text">
+                                            <h6 class="t-card-footer-header">
+                                                Bio
+                                            </h6>
+                                            <p>
+                                                As you can see this background is smaller than that parent’s background, so we have to set its dimensions to match that parent’s dimension.As you can see this background is smaller than that parent’s background, so
+                                        we have to set its dimensions to match that parent’s dimension.As you can see this background is smaller than that parent’s background, so we have to set its dimensions to match that parent’s dimension.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-12 mt-4">
+                                <div class="t-card col-12">
+                                    <div class="t-card-header">
+                                    </div>
+                                    <div class="t-card-img">
+                                        <img src="assets/images/t1.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="t-card-body pl-md-2 pr-md-2 pb-2 pl-1 pr-1">
+                                        <div class="row justify-content-center ml-lg-1">
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="person"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Sarah D.
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="ribbon"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Mathematics
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="location"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Odili Road, Rivers State.
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="school"></ion-icon>
+                                                </div>
+                                                <div class="col-12">
+                                                    <span class="cert">BSc</span><span class="cert">MSc</span><span class="cert">PHd</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="shield-checkmark"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    <div class="chart text-center" data-percent="87">87%<br>verified</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="cellular"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    <div class="chart text-center" data-percent="90">90%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="t-card-footer">
+                                        <div class="t-card-footer-text">
+                                            <h6 class="t-card-footer-header">
+                                                Bio
+                                            </h6>
+                                            <p>
+                                                As you can see this background is smaller than that parent’s background, so we have to set its dimensions to match that parent’s dimension.As you can see this background is smaller than that parent’s background, so
+                                        we have to set its dimensions to match that parent’s dimension.As you can see this background is smaller than that parent’s background, so we have to set its dimensions to match that parent’s dimension.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-12 mt-4">
+                                <div class="t-card col-12">
+                                    <div class="t-card-header">
+                                    </div>
+                                    <div class="t-card-img">
+                                        <img src="assets/images/t1.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="t-card-body pl-md-2 pr-md-2 pb-2 pl-1 pr-1">
+                                        <div class="row justify-content-center ml-lg-1">
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="person"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Sarah D.
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="ribbon"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Mathematics
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="location"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    Odili Road, Rivers State.
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="school"></ion-icon>
+                                                </div>
+                                                <div class="col-12">
+                                                    <span class="cert">BSc</span><span class="cert">MSc</span><span class="cert">PHd</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="shield-checkmark"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    <div class="chart text-center" data-percent="87">87%<br>verified</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 p-0 mt-3">
+                                                <div class="col-12">
+                                                    <ion-icon name="cellular"></ion-icon>
+                                                </div>
+                                                <div class="col-12 t-card-text">
+                                                    <div class="chart text-center" data-percent="90">90%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="t-card-footer">
+                                        <div class="t-card-footer-text">
+                                            <h6 class="t-card-footer-header">
+                                                Bio
+                                            </h6>
+                                            <p>
+                                                As you can see this background is smaller than that parent’s background, so we have to set its dimensions to match that parent’s dimension.As you can see this background is smaller than that parent’s background, so
+                                        we have to set its dimensions to match that parent’s dimension.As you can see this background is smaller than that parent’s background, so we have to set its dimensions to match that parent’s dimension.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- popular courses -->
+            <section class="container-fluid section courses">
+                <div class="row justify-content-center ml-0 mr-0">
+                    <h4 class="primary-heading col-md-6 col-12">popular courses</h4>
+                    <div class="col-md-6 col-12">
+                        <button class="btn btn-main ml-auto">browse categories</button>
+                    </div>
+                    <div class="col-12">
+                        <div class="row justify-content-center">
+                            <div class="col-md-4 col-12">
+                                <div class="card mt-3">
+                                    <div class="card-body card-text pl-2 pr-2 d-flex align-items-center">
+                                        <ion-icon name="calculator" class="card-icon mr-3"></ion-icon>
+                                        Mathematics
+                                        <ion-icon name="chevron-forward" class="ml-auto"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="card mt-3">
+                                    <div class="card-body card-text pl-2 pr-2 d-flex align-items-center">
+                                        <ion-icon name="language" class="card-icon mr-3"></ion-icon>
+                                        English Language
+                                        <ion-icon name="chevron-forward" class="ml-auto"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="card mt-3">
+                                    <div class="card-body card-text pl-2 pr-2 d-flex align-items-center">
+                                        <ion-icon name="flask" class="card-icon mr-3"></ion-icon>
+                                        Chemistry
+                                        <ion-icon name="chevron-forward" class="ml-auto"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="card mt-3">
+                                    <div class="card-body card-text pl-2 pr-2 d-flex align-items-center">
+                                        <ion-icon name="stopwatch" class="card-icon mr-3"></ion-icon>
+                                        History
+                                        <ion-icon name="chevron-forward" class="ml-auto"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="card mt-3">
+                                    <div class="card-body card-text pl-2 pr-2 d-flex align-items-center">
+                                        <ion-icon name="male-female" class="card-icon mr-3"></ion-icon>
+                                        Biology
+                                        <ion-icon name="chevron-forward" class="ml-auto"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="card mt-3">
+                                    <div class="card-body card-text pl-2 pr-2 d-flex align-items-center">
+                                        <ion-icon name="code-slash" class="card-icon mr-3"></ion-icon>
+                                        Computer Programming
+                                        <ion-icon name="chevron-forward" class="ml-auto"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- how it works -->
+            <section class="container-fluid section hiw">
+                <div class="row justify-content-center ml-0 mr-0">
+                    <h4 class="primary-heading col-12">how it works</h4>
+                    <div class="col-12 mt-3">
+                        <div class="row justify-content-center">
+                            <div class="col-md-4 col-12">
+                                <div class="card text-center col-12 mt-3">
+                                    <div class="card-large-icon col-12 p-3">
+                                        <ion-icon name="search-outline" class="color-primary"></ion-icon>
+                                    </div>
+                                    <div class="card-body">
+                                      Find a tutor from our vetted and verified teachers database.<br><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="card text-center col-12 mt-3">
+                                    <div class="card-large-icon col-12 p-3">
+                                        <ion-icon name="people-outline" class="color-primary"></ion-icon>
+                                    </div>
+                                    <div class="card-body">
+                                      Book your 1 on 1 lesson today and get a response from personal tutors within 24 hours after admin approval.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="card text-center col-12 mt-3">
+                                    <div class="card-large-icon col-12 p-3">
+                                        <ion-icon name="wallet-outline" class="color-primary"></ion-icon>
+                                    </div>
+                                    <div class="card-body">
+                                      Be in control of the fees with the teacher, 0% commission from teachable.ng.<br><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <a href="#" class="btn bg-primary text-white">Get Started</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- banner -->
+            <section class="container-fluid section banner">
+                <div class="row justify-content-center align-items-center h-100">
+                    <div class="col-12">
+                        <h4 class="col-12 text-center">
+                            Find Verified professional teachers
+                        </h4>
+                        <a href="#" class="btn btn-white-outline mx-auto mt-3">Learn More</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- footer -->
+            <footer class="footer container-fluid section">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-3 col-12 footer-logo">
+                        <img src="assets/images/teachable-logo.png" alt="teachable logo" class="img-fluid">
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">Join Us</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">Terms of Service</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">Contact</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">Social Media</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">Get Teachers</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">Find School</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">Search Videos</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-12"></div>
+                    <div class="col-12 text-center">
+                        Copyright 2020 | Teachable
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Jquery pie chart js -->
+    <script src="assets/js/jquery.easypiechart.min.js"></script>
+    <!-- Popper.js -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- ion-icons -->
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('.chart').easyPieChart({
+                //your configuration goes here
+            });
+        });
+    </script>
+</body>
+
+</html>

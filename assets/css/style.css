@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    background-image:  url(/assets/images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: .3;
+}
+
+.header .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.header .navbar .navbar-brand {
+    width: 100px;
+}
+
+.header .navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.header .navbar .navbar-nav .nav-btn {
+    color: #ffffff;
+}
+
+@media (min-width: 992px){
+    .header {
+        padding: 10px 40px;
+    }
+    .header .navbar .navbar-nav {
+       margin-left: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+.header .banner-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+}
+
+.header .banner-text p {
+    font-size: 14px;
+}
+
+.header .banner-text .form .form-group {
+    position: relative;
+    margin-bottom: 0px !important;
+}
+
+.header .banner-text .form .form-group ion-icon {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-60%);
+    font-size: 24px;
+}
+
+.header .banner-text .form .form-group input.form-control {
+    width: 100%;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: transparent;
+    outline: none !important;
+    border-radius: 0px !important;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    padding-left: 40px;
+}
+
+.header .banner-text .form .form-group input.form-control:focus,
+.header .banner-text .form .form-group input.form-control:active {
+    outline: none !important;
+}
+
+.header .banner-text .form .form-group input.form-control::-webkit-input-placeholder { 
+    color: #ffffff;
+}
+
+.header .banner-text .form .form-group input.form-control:-ms-input-placeholder { 
+    color: #ffffff;
+}
+
+.header .banner-text .form .form-group input.form-control::placeholder { 
+    color: #ffffff;
+}
+  
+@media (max-width: 600px) {
+    .header .banner-text {
+        position: absolute;
+        top: 55%;
+        transform: translateY(-45%);
+        color: #ffffff;
+    }
+
+    .header .banner-text h1{
+        font-size: 25px;
+    }
+}
+
+.primary-heading {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 550;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.btn-main {
+    border: 1.4px solid grey;
+    border-radius: 3.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+button.bg-primary,
+a.bg-primary,
+button.bg-primary:focus,
+a.bg-primary:focus,
+button.bg-primary:hover,
+a.bg-primary:hover,
+button.bg-primary:active,
+a.bg-primary:active {
+    background-color: #006838 !important;
+}
+
+.bg-primary,
+.bg-primary:focus,
+.bg-primary:hover,
+.bg-primary:active {
+    background-color: #006838 !important;
+}
+
+.color-primary {
+    color: #006838 !important;
+}
+
+.btn-white-outline {
+    width: fit-content;
+    border: 1px solid #fff;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-white-outline:focus,
+.btn-white-outline:hover,
+.btn-white-outline:active {
+    color: white;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+.courses {
+    background-color: #eeeeef;
+}
+
+.hiw {
+    background-color: #e4e4e4;
+}
+
+.banner {
+    position: relative;
+    color: #ffffff;
+    height: 250px;
+    background-image: url(/assets/images/banner-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: .3;
+}
+
+.chart {
+    position: relative;
+    height: 70px;
+    width: 90px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 25px;
+}
+
+.chart canvas {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.cert {
+    background-color: #0000001f;
+    font-size: 10px;
+   word-break: break-all;
+    margin: 3px 4px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 40px 20px;
+}
+
+.t-card {
+    position: relative;
+    background-color: #fff;
+    border: none;
+    padding: 0px;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 2.5px 2.5px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 2.5px 2.5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2.5px 2.5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.t-card-header {
+    position: relative;
+    height: 150px;
+    background-image: url(/assets/images/teachable-logo.png);
+    background-size: 50px;
+    overflow: hidden;
+}
+
+.t-card-header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: .3;
+}
+
+.t-card-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.t-card-body {
+    margin-top: 30px;
+}
+
+.t-card-body ion-icon {
+    font-size: 25px;
+}
+
+.t-card-text {
+    font-size: 12px;
+    word-break: keep-all;
+}
+
+.t-card-text ion-icon {
+    font-size: 14px;
+}
+
+.t-card-footer {
+    padding: 20px;
+}
+
+.t-card-footer-text {
+    height: auto;
+}
+
+.t-card-footer-header {
+    font-weight: 800;
+}
+
+.t-card-footer-text p {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    line-height: 1.2em;
+    max-height: 4.4em;
+    text-align: justify;
+    margin-right: -1em;
+    padding-right: 1em;
+    font-size: 13px;
+}
+
+.card {
+    border: none;
+    font-size: 14px;
+}
+
+.card .card-text {
+    font-weight: 550;
+}
+
+.card .card-icon {
+    font-size: 30px;
+}
+
+.card .card-large-icon ion-icon {
+    font-size: 60px;
+}
+
+.footer {
+    background-color: #14222c;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-item {
+    margin: 5px;
+}
+
+.footer-link,
+.footer-link:focus,
+.footer-link:hover,
+.footer-link:active {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+}
