@@ -57,6 +57,17 @@
         margin-left: 0px;
         margin-right: 0px;
     }
+    .header .navbar {
+        background-color: #fff;
+        z-index: 2000;
+    }
+    .header .navbar .navbar-nav .nav-link {
+        color: #006838;
+        font-size: 14px;
+    }
+    .header .navbar .navbar-nav .nav-link.btn {
+        color: #ffffff;
+    }
 }
 
 .header .banner-text {
@@ -215,11 +226,11 @@ a.bg-primary:active {
 
 .chart {
     position: relative;
-    height: 70px;
-    width: 90px;
+    height: 43px;
+    width: 43px;
     margin-top: 20px;
     font-size: 14px;
-    text-align: center;
+    text-align: right;
     font-weight: 800;
     line-height: 25px;
 }
@@ -229,15 +240,15 @@ a.bg-primary:active {
     top: 30%;
     left: -5%;
     transform: translateY(-50%);
-    width: 100px !important;
-    height: 100px !important;
+    width: 60px !important;
+    height: 60px !important;
 }
 
 .cert {
     background-color: #0000001f;
     font-size: 10px;
    word-break: break-all;
-    margin: 3px 4px;
+    margin: 3px 3px;
     padding: 5px;
     border-radius: 5px;
 }
@@ -294,7 +305,7 @@ a.bg-primary:active {
     border-radius: 50%;
     overflow: hidden;
     position: absolute;
-    top: 15%;
+    top: 13%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -320,7 +331,7 @@ a.bg-primary:active {
 }
 
 .t-card-footer {
-    padding: 20px;
+    padding: 5px 15px;
 }
 
 .t-card-footer-text {
@@ -350,10 +361,12 @@ a.bg-primary:active {
 
 .card .card-text {
     font-weight: 550;
+    color: #006838;
 }
 
 .card .card-icon {
     font-size: 30px;
+    color: #006838;
 }
 
 .card .card-large-icon ion-icon {
